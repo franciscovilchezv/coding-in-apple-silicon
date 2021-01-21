@@ -30,7 +30,7 @@ The OS knows when to use Rosetta if it detects the software has x86 instructions
 
 ## For other tools that need to install
 
-We need `sharp`
+We need `sharp` as mentioned in this [issue](https://github.com/lovell/sharp/issues/2460).
 
 `brew reinstall vips`
 
