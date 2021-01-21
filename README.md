@@ -5,3 +5,4 @@ Guides for setting up your development environment in a Mac with Apple Silicon:
 - [IDEs](./IDEs)
 - [Terminals](./terminal)
 - [conda and miniconda](./python)
+- [ionic](./ionic)

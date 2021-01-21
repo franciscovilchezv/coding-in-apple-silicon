@@ -27,3 +27,13 @@ Follow the official [website instructions](https://ionicframework.com/getting-st
 `npx cap open ios`
 
 The OS knows when to use Rosetta if it detects the software has x86 instructions according to [Apple](https://developer.apple.com/documentation/apple_silicon/about_the_rosetta_translation_environment).
+
+## For other tools that need to install
+
+We need `sharp`
+
+`brew reinstall vips`
+
+After this, we can run
+
+`npm i -g native-run cordova-res`
