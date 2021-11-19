@@ -32,6 +32,13 @@ The OS knows when to use Rosetta if it detects the software has x86 instructions
 
 We need `sharp` as mentioned in this [issue](https://github.com/lovell/sharp/issues/2460).
 
+`brew reinstall vips`
+
+After this, we can run
+
+`npm i -g native-run cordova-res`
+
+
 ## Possible errors
 
 ```
@@ -53,9 +60,3 @@ Fix it with:
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -license accept
 ```
-
-`brew reinstall vips`
-
-After this, we can run
-
-`npm i -g native-run cordova-res`
