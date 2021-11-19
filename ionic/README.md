@@ -32,6 +32,28 @@ The OS knows when to use Rosetta if it detects the software has x86 instructions
 
 We need `sharp` as mentioned in this [issue](https://github.com/lovell/sharp/issues/2460).
 
+## Possible errors
+
+```
+✔ Updating iOS plugins in 4.32ms
+[info] Found 4 Capacitor plugins for ios:
+       @capacitor/app@1.0.6
+       @capacitor/haptics@1.1.3
+       @capacitor/keyboard@1.1.3
+       @capacitor/status-bar@1.0.6
+✖ Updating iOS native dependencies with pod install - failed!
+✖ update ios - failed!
+[error] xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory
+        '/Library/Developer/CommandLineTools' is a command line tools instance
+```
+
+Fix it with:
+
+```
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -license accept
+```
+
 `brew reinstall vips`
 
 After this, we can run
