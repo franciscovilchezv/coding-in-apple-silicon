@@ -65,3 +65,5 @@ pass init 851B42F5855E6D53EF6CC52459434BB9492BFCA3
 ### View `pass` in iPhone
 
 https://mssun.github.io/passforios/
+
+You need to use ssh as authentication. Type the exact URL that you cpy paste from github ssh option, and use `git` as the user in the app
