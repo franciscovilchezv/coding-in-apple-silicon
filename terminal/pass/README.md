@@ -45,6 +45,13 @@ sub   rsa4096 2021-12-25 [E]
 
 This will generate a private a public key, both identified with `851B42F5855E6D53EF6CC52459434BB9492BFCA3`.
 
+### Importing
+
+Trust public key after import
+
+gpg --edit-key <KEY_ID>
+gpg> trust
+
 
 ### `pass`
 
