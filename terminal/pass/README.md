@@ -47,6 +47,8 @@ This will generate a private a public key, both identified with `851B42F5855E6D5
 
 ### Importing
 
+https://www.gnupg.org/gph/en/manual/x56.html
+
 Trust public key after import
 
 gpg --edit-key <KEY_ID>
