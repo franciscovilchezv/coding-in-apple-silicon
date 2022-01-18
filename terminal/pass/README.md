@@ -60,6 +60,10 @@ gpg --export-secret-keys 3D38A8734AE22785E5AE8604E1708C2E03E1E62A > file
 
 gpg --export -a 3D38A8734AE22785E5AE8604E1708C2E03E1E62A > > file
 
+### Edit it
+
+https://help.ubuntu.com/community/GnuPrivacyGuardHowto#Changing_your_Passphrase
+
 ### `pass`
 
 ```
@@ -72,3 +76,6 @@ pass init 851B42F5855E6D53EF6CC52459434BB9492BFCA3
 https://mssun.github.io/passforios/
 
 You need to use ssh as authentication. Type the exact URL that you cpy paste from github ssh option, and use `git` as the user in the app
+
+Setting up shh key:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
