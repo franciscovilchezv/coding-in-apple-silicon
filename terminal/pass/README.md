@@ -54,6 +54,11 @@ Trust public key after import
 gpg --edit-key <KEY_ID>
 gpg> trust
 
+### Export
+
+gpg --export-secret-keys 3D38A8734AE22785E5AE8604E1708C2E03E1E62A > file
+
+gpg --export -a 3D38A8734AE22785E5AE8604E1708C2E03E1E62A > > file
 
 ### `pass`
 
